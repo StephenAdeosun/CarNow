@@ -10,7 +10,7 @@ const io = socketIO(server)
 const path = require("path")
 
 app.get("/", (req,res)=>{
-    res.send("Welcome to the ordering app")
+    res.send("You are Welcome to CarNow the car ordering app")
 })
 
 app.get("/sender", (req,res)=>{
